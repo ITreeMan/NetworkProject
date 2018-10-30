@@ -66,7 +66,7 @@ s.send(uname.encode('ascii'))
 
 
 clientRunning = True
-
+MacPort = hex_mac_address +"-"+ port_input
 def receiveMsg(sock):
     serverDown = False
     while clientRunning and (not serverDown):
@@ -84,7 +84,6 @@ threading.Thread(target = receiveMsg, args = (s,)).start()
 while clientRunning:
     tempMsg = input() + hex_mac_address
     msg = uname +'>>' + tempMsg
-    MacPort = hex_mac_address + port_input
     if '**quit' in msg:
         clientRunning = False
         s.send('**quit'.encode('ascii'))

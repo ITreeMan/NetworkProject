@@ -56,7 +56,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 port = 1234
 port_input = input("Enter port::")
 
-uname = ipAddress
+uname = ipAddress+','+hex_mac_address+','+port_input
 
 
 ip = input('Enter the IP Address of server::')

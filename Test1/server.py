@@ -100,6 +100,8 @@ def handleClient(client, uname):
 while serverRunning:
     client, address = s.accept()
     uname = client.recv(1024).decode('ascii')
+    uname.split(",")
+    print((uname[0]))
     print('%s connected to the server' % str(uname))
     client.send('Welcome to Messenger. Type **help to know all the commands'.encode('ascii'))
 
