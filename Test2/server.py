@@ -83,6 +83,7 @@ def handleClient(client, uname):
                         # print("IP Address: " + ipcom)
                         # print("VLAN1 "+ macadd + "0/1 "+ "Dynamic")
                         clients.get(name).send('ARP'.encode('ascii'))
+                        clients.get(uname).send('ARP'.encode('ascii'))
                         found = True
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
