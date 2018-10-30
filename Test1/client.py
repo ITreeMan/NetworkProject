@@ -80,7 +80,7 @@ def receiveMsg(sock):
 threading.Thread(target = receiveMsg, args = (s,)).start()
 while clientRunning:
     tempMsg = input()
-    msg = tempMsg
+    msg = ipAddress+','+tempMsg
     if '**quit' in msg:
         clientRunning = False
         s.send('**quit'.encode('ascii'))

@@ -75,8 +75,10 @@ def handleClient(client, uname):
             elif 'ping' in msg:
                 for name in keys:
                     if ('ping' + name) in msg:
-                        iptarget=msg.replace('ping','')
-                        print(iptarget)
+                        print('msg '+msg)
+                        myip=msg.replace(','+'ping'+name,'')
+
+                        print('iptarget= '+myip+' myip =  '+myip)
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
             else:
