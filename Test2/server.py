@@ -79,8 +79,9 @@ def handleClient(client, uname):
                         msg = msg.replace('ping' + name, '')
                         macadd = msg.replace(uname+'>>', '')
                         ipcom = msg.replace('>>'+macadd, '')
-                        print("Mac Address: " + macadd)
-                        print("IP Address: " + ipcom)
+                        # print("Mac Address: " + macadd)
+                        # print("IP Address: " + ipcom)
+                        print("VLAN1 "+ macadd + "0/1 "+ "Dynamic")
                         clients.get(name).send('ARP'.encode('ascii'))
                         found = True
                 if (not found):
