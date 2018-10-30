@@ -63,12 +63,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1145" />
+          <entry key="py" value="1165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1145" />
+          <entry key="Python" value="1165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test2/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="66" />
+            <state relative-caret-position="258">
+              <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/Test2/client.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
-              <caret line="76" column="76" lean-forward="true" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/Test1/client.py" />
         <option value="$PROJECT_DIR$/Test1/server.py" />
-        <option value="$PROJECT_DIR$/Test2/server.py" />
         <option value="$PROJECT_DIR$/Test2/client.py" />
+        <option value="$PROJECT_DIR$/Test2/server.py" />
       </list>
     </option>
   </component>
@@ -316,7 +316,7 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49579832" visible="true" weight="0.24983476" />
-      <window_info id="Structure" order="1" sideWeight="0.5042017" side_tool="true" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" sideWeight="0.5042017" side_tool="true" weight="0.24983476" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -366,14 +366,14 @@
     <entry file="file://$PROJECT_DIR$/Test2/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
-          <caret line="76" column="76" lean-forward="true" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test2/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="66" />
+        <state relative-caret-position="258">
+          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="69" />
         </state>
       </provider>
     </entry>
