@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9c45ee1-a2c7-4634-a3e2-ad96c3922fc2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test2/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/client2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/client2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2/client3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/client3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +65,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1365" />
+          <entry key="py" value="1429" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1365" />
+          <entry key="Python" value="1429" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -79,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test2/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="89" column="46" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="35" />
+            <state relative-caret-position="343">
+              <caret line="88" column="45" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -88,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test2/client3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+            <state relative-caret-position="206">
+              <caret line="75" selection-start-line="75" selection-end-line="82" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -98,16 +100,7 @@
         <entry file="file://$PROJECT_DIR$/Test2/client.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test2/client2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -138,9 +131,9 @@
         <option value="$PROJECT_DIR$/Test1/server.py" />
         <option value="$PROJECT_DIR$/Test1/.idea/client3.py" />
         <option value="$PROJECT_DIR$/Test1/client3.py" />
+        <option value="$PROJECT_DIR$/Test2/client2.py" />
         <option value="$PROJECT_DIR$/Test2/server.py" />
         <option value="$PROJECT_DIR$/Test2/client3.py" />
-        <option value="$PROJECT_DIR$/Test2/client2.py" />
         <option value="$PROJECT_DIR$/Test2/client.py" />
       </list>
     </option>
@@ -200,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client (1)">
+  <component name="RunManager" selected="Python.server (1)">
     <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,8 +308,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client3" />
         <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.client3" />
         <item itemvalue="Python.server (1)" />
         <item itemvalue="Python.client (2)" />
         <item itemvalue="Python.server (2)" />
@@ -349,12 +342,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49579832" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49579832" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" sideWeight="0.5042017" side_tool="true" weight="0.24983476" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32624114" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32624114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,13 +386,6 @@
     <entry file="file://$PROJECT_DIR$/Test1/.idea/client3.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test2/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="89" column="46" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test1/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -409,22 +395,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test2/client2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="308">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test2/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="88" column="45" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test2/client3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+        <state relative-caret-position="206">
+          <caret line="75" selection-start-line="75" selection-end-line="82" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test2/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -74,8 +74,11 @@ def receiveMsg(sock):
             msg = sock.recv(1024).decode('ascii')
             print(msg)
             if 'ARP' in msg:
-                ipcompair = msg.replace('ARP','')
-                if ipcompair == ipAddress:
+                ARP,ipcompair,iptarget = msg.split(',')
+                if iptarget == ipcompair:
+                    msg = "MacPort " +"one" + "VLAN1 "+ hex_mac_address + " "+port_input+ " Dynamic"
+                    s.send(msg.encode('ascii'))
+                elif ipcompair == ipcompair:
                     msg = "MacPort " +"one" + "VLAN1 "+ hex_mac_address + " "+port_input+ " Dynamic"
                     s.send(msg.encode('ascii'))
 

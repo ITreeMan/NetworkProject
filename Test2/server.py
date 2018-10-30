@@ -86,9 +86,10 @@ def handleClient(client, uname):
                         # clients.get(ipcom).send('ARP1'.encode('ascii'))
                         #
                         # clients.get(name).send('ARP2'.encode('ascii'))
-                        msg = 'ARP'+ipcom
+                        msg = 'ARP'+','+ipcom+','+name
                         for k, v in clients.items():
                             v.send(msg.encode('ascii'))
+
 
                         found = True
                 if (not found):
