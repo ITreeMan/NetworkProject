@@ -48,7 +48,6 @@ def getNetworkIp():
 
 
 ipAddress = getNetworkIp()
-package = [ipAddress,hex_mac_address]
 #print("HEX MAC Address: " + hex_mac_address)
 print("Your IP Address: " + ipAddress)
 
@@ -79,7 +78,7 @@ def receiveMsg(sock):
 
 threading.Thread(target = receiveMsg, args = (s,)).start()
 while clientRunning:
-    tempMsg = input() + hex_mac_address
+    tempMsg = input()
     msg = uname +'>>' + tempMsg
     if '**quit' in msg:
         clientRunning = False

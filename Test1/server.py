@@ -77,8 +77,9 @@ def handleClient(client, uname):
                 for name in keys:
                     if ('ping' + name) in msg:
                         msg = msg.replace('ping' + name, '')
-                        print("IP Address: " + msg)
-                        clients.get(name).send(msg.encode('ascii'))
+                        machaha=msg.replace(unameall +'>>', 'sucsess')
+                        print("IP Address: " + machaha)
+                        clients.get(name).send(machaha.encode('ascii'))
                         found = True
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
@@ -100,12 +101,12 @@ def handleClient(client, uname):
 while serverRunning:
     client, address = s.accept()
     uname = client.recv(1024).decode('ascii')
-    uname.split(",")
-    print((uname[0]))
-    print('%s connected to the server' % str(uname))
+    unameall=uname
+    ipadd,macadd,portadd = uname.split(",")
+    print('%s connected to the server' % str(ipadd))
     client.send('Welcome to Messenger. Type **help to know all the commands'.encode('ascii'))
 
     if (client not in clients):
-        clients[uname] = client
-        threading.Thread(target=handleClient, args=(client, uname,)).start()
+        clients[ipadd] = client
+        threading.Thread(target=handleClient, args=(client, ipadd,)).start()
 
