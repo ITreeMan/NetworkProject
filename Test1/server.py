@@ -37,6 +37,7 @@ ip = str(socket.gethostbyname(socket.gethostname()))
 port = 1234
 
 clients = {}
+list_of_connected = []
 
 s.bind((ip, port))
 s.listen()
@@ -47,21 +48,17 @@ print('Ip Address of the Server::%s' % ip)
 def handleClient(client, uname):
     clientConnected = True
     keys = clients.keys()
+
     help = 'There are four commands in Messenger\n1::**chatlist=>gives you the list of the people currently online\n2::**quit=>To end your session\n3::**broadcast=>To broadcast your message to each and every person currently present online\n4::Add the name of the person at the end of your message preceded by ** to send it to particular person'
 
     while clientConnected:
         try:
             msg = client.recv(1024).decode('ascii')
-
             response = 'Show MAC address table\n'
             found = False
             if 'show mac' in msg:
-                clientNo = 0
-                for name in keys:
-                    clientNo += 1
-                    response = response + str(clientNo) + '::' + 'VLAN1' +' '+ macadd +' ' + portadd + ' '+'Dynamic' + '\n'
-                    print(response+msg+" ")
-                client.send(response.encode('ascii'))
+                e = list_of_connected[0]
+                print("ip: " + e.get('ip') + " mac: " + e.get('mac') + " port: " + e.get('port'))
 
             elif '**help' in msg:
                 client.send(help.encode('ascii'))
@@ -110,5 +107,12 @@ while serverRunning:
 
     if (client not in clients):
         clients[ipadd] = client
-        threading.Thread(target=handleClient, args=(client, ipadd,)).start()
+        list_of_connected.append({
+            'ip': ipadd,
+            'mac': macadd,
+            'port': portadd
+        })
+        threading.Thread(target=handleClient, args=(client, (ipadd,macadd,portadd),)).start()
+        print(str(address))
+
 

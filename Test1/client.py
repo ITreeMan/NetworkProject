@@ -48,6 +48,7 @@ def getNetworkIp():
 
 
 ipAddress = getNetworkIp()
+
 #print("HEX MAC Address: " + hex_mac_address)
 print("Your IP Address: " + ipAddress)
 
