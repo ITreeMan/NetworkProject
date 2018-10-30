@@ -83,9 +83,12 @@ def handleClient(client, uname):
                         # print("IP Address: " + ipcom)
                         # print("VLAN1 "+ macadd + "0/1 "+ "Dynamic")
                         print(ipcom)
-                        clients.get(ipcom).send('ARP1'.encode('ascii'))
-
-                        clients.get(name).send('ARP2'.encode('ascii'))
+                        # clients.get(ipcom).send('ARP1'.encode('ascii'))
+                        #
+                        # clients.get(name).send('ARP2'.encode('ascii'))
+                        msg = 'ARP'+ipcom
+                        for k, v in clients.items():
+                            v.send(msg.encode('ascii'))
 
                         found = True
                 if (not found):
