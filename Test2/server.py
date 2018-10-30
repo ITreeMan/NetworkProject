@@ -77,15 +77,29 @@ def handleClient(client, uname):
                 for name in keys:
                     if ('ping' + name) in msg:
                         msg = msg.replace('ping' + name, '')
-                        macadd = msg.replace('10.51.61.216'+'>>', '')
+                        macadd = msg.replace(uname+'>>', '')
                         ipcom = msg.replace('>>'+macadd, '')
                         print("Mac Address: " + macadd)
                         print("IP Address: " + ipcom)
-
-                        clients.get(name).send(msg.encode('ascii'))
+                        clients.get(name).send('ARP'.encode('ascii'))
                         found = True
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
+            elif 'MacPort' in msg:
+                # for name in keys:
+                #     if ('MacPort' + name) in msg:
+                        # msg = msg.replace('ping' + name, '')
+                        # macadd = msg.replace(uname+'>>', '')
+                        # ipcom = msg.replace('>>'+macadd, '')
+                        # print("Mac Address: " + macadd)
+                        # print("IP Address: " + ipcom)
+                        # clients.get(name).send('ARP'.encode('ascii'))
+                        print("MacPort" + msg)
+                        # found = True
+                # if (not found):
+                #     client.send('Trying to send message to invalid person.'.encode('ascii'))
+
+
             else:
                 for name in keys:
                     if ('**' + name) in msg:

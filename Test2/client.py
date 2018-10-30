@@ -73,6 +73,9 @@ def receiveMsg(sock):
         try:
             msg = sock.recv(1024).decode('ascii')
             print(msg)
+            if 'ARP' in msg:
+                msg = "MacPort " + MacPort
+                s.send(msg.encode('ascii'))
         except:
             print('Server is Down. You are now Disconnected. Press enter to exit...')
             serverDown = True
@@ -81,6 +84,7 @@ threading.Thread(target = receiveMsg, args = (s,)).start()
 while clientRunning:
     tempMsg = input() + hex_mac_address
     msg = uname +'>>' + tempMsg
+    MacPort = hex_mac_address + port_input
     if '**quit' in msg:
         clientRunning = False
         s.send('**quit'.encode('ascii'))
