@@ -73,8 +73,11 @@ def receiveMsg(sock):
         try:
             msg = sock.recv(1024).decode('ascii')
             print(msg)
-            if 'ARP' in msg:
-                msg = "MacPort " + "VLAN1 "+ hex_mac_address + " "+port_input+ " Dynamic"
+            if 'ARP1' in msg:
+                msg = "MacPort " +"one" + "VLAN1 "+ hex_mac_address + " "+port_input+ " Dynamic"
+                s.send(msg.encode('ascii'))
+            if 'ARP2' in msg:
+                msg = "MacPort " +"two" + "VLAN1 "+ hex_mac_address + " "+port_input+ " Dynamic"
                 s.send(msg.encode('ascii'))
         except:
             print('Server is Down. You are now Disconnected. Press enter to exit...')

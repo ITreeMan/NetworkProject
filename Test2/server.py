@@ -82,8 +82,11 @@ def handleClient(client, uname):
                         # print("Mac Address: " + macadd)
                         # print("IP Address: " + ipcom)
                         # print("VLAN1 "+ macadd + "0/1 "+ "Dynamic")
-                        clients.get(name).send('ARP'.encode('ascii'))
-                        clients.get(uname).send('ARP'.encode('ascii'))
+                        print(ipcom)
+                        clients.get(ipcom).send('ARP1'.encode('ascii'))
+
+                        clients.get(name).send('ARP2'.encode('ascii'))
+
                         found = True
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
@@ -96,8 +99,12 @@ def handleClient(client, uname):
                         # print("Mac Address: " + macadd)
                         # print("IP Address: " + ipcom)
                         # clients.get(name).send('ARP'.encode('ascii'))
-                        msg=msg.replace('MacPort ','')
-                        print(msg)
+                        if 'one' in msg:
+                            msg1=msg.replace('MacPort '+'one','')
+                            print(msg1)
+                        elif 'two' in msg:
+                            msg2 = msg.replace('MacPort ' + 'two', '')
+                            print(msg2)
                         # found = True
                 # if (not found):
                 #     client.send('Trying to send message to invalid person.'.encode('ascii'))
