@@ -53,14 +53,16 @@ def handleClient(client, uname):
         try:
             msg = client.recv(1024).decode('ascii')
 
-            response = 'Number of People Online\n'
+            response = 'Show MAC address table\n'
             found = False
-            if '**chatlist' in msg:
+            if 'show mac' in msg:
                 clientNo = 0
                 for name in keys:
                     clientNo += 1
-                    response = response + str(clientNo) + '::' + name + '\n'
+                    response = response + str(clientNo) + '::' + 'VLAN1' +' '+ macadd +' ' + portadd + ' '+'Dynamic' + '\n'
+                    print(response+msg+" ")
                 client.send(response.encode('ascii'))
+
             elif '**help' in msg:
                 client.send(help.encode('ascii'))
             elif '**broadcast' in msg:
@@ -77,7 +79,7 @@ def handleClient(client, uname):
                 for name in keys:
                     if ('ping' + name) in msg:
                         msg = msg.replace('ping' + name, '')
-                        machaha=msg.replace(unameall +'>>', 'sucsess')
+                        machaha=msg.replace(unameall +'>>', 'success')
                         print("IP Address: " + machaha)
                         clients.get(name).send(machaha.encode('ascii'))
                         found = True
