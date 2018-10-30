@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9c45ee1-a2c7-4634-a3e2-ad96c3922fc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6OnBoard/LAB6/iseconfig/LAB6.projectmgr" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6OnBoard/LAB6/iseconfig/LAB6.projectmgr" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6OnBoard/LAB6/iseconfig/seg7_decoder.xreport" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6OnBoard/LAB6/iseconfig/seg7_decoder.xreport" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6OnBoard/LAB6/seg7_decoder_summary.html" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6OnBoard/LAB6/seg7_decoder_summary.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/LAB6.gise" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/LAB6.gise" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/LAB6.xise" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/LAB6.xise" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/_xmsgs/xst.xmsgs" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/_xmsgs/xst.xmsgs" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/counte_tb_isim_beh.wdb" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/counte_tb_isim_beh.wdb" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/fuseRelaunch.cmd" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/fuseRelaunch.cmd" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/iseconfig/LAB6.projectmgr" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/iseconfig/LAB6.projectmgr" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/iseconfig/seg7_decoder.xreport" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/iseconfig/seg7_decoder.xreport" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/ISimEngine-DesignHierarchy.dbg" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/ISimEngine-DesignHierarchy.dbg" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/netId.dat" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/netId.dat" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_0269582485_3212880686.c" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_0269582485_3212880686.c" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_0269582485_3212880686.didat" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_0269582485_3212880686.didat" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_3280846014_2372691052.c" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_3280846014_2372691052.c" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_3280846014_2372691052.didat" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/a_3280846014_2372691052.didat" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/counte_tb_isim_beh.exe_main.c" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/counte_tb_isim_beh.exe_main.c" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/p_0595283810.didat" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counte_tb_isim_beh.exe.sim/work/p_0595283810.didat" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/ISimEngine-DesignHierarchy.dbg" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/netId.dat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/tmp_save/_1" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/work/a_0269582485_3212880686.c" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/work/a_0269582485_3212880686.didat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/work/a_1581685510_2372691052.c" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/work/a_1581685510_2372691052.didat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/work/counter2tb_isim_beh.exe_main.c" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/work/p_0595283810.c" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/counter2tb_isim_beh.exe.sim/work/p_0595283810.didat" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/isim_usage_statistics.html" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/isim_usage_statistics.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/precompiled.exe.sim/ieee/p_2592010699.didat" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/precompiled.exe.sim/ieee/p_2592010699.didat" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/precompiled.exe.sim/ieee/p_3499444699.didat" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/precompiled.exe.sim/ieee/p_3499444699.didat" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/precompiled.exe.sim/ieee/p_3620187407.didat" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/precompiled.exe.sim/ieee/p_3620187407.didat" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/temp/counte_tb.vdb" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/temp/lab03_pack.vdb" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/temp/seg7_decoder.vdb" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/work/counte_tb.vdb" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/work/counte_tb.vdb" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/work/lab03_pack.vdb" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/work/lab03_pack.vdb" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/isim/work/seg7_decoder.vdb" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/isim/work/seg7_decoder.vdb" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.cmd_log" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.cmd_log" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.ngc" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.ngc" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.ngr" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.ngr" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.syr" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.syr" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.vhd" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder.vhd" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_envsettings.html" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_envsettings.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_summary.html" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_summary.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_vhdl.prj" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_vhdl.prj" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_xst.xrpt" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/seg7_decoder_xst.xrpt" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/webtalk_pn.xml" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/webtalk_pn.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/hdllib.ref" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/hdllib.ref" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/hdpdeps.ref" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/hdpdeps.ref" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/sub00/vhpl02.vho" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/sub00/vhpl02.vho" afterDir="false" />
+      <change beforePath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/sub00/vhpl03.vho" beforeDir="false" afterPath="$USER_HOME$/Apply Digital/Lab6TBW/xst/work/sub00/vhpl03.vho" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkProject/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkProject/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkProject/networkProject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkProject/pc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkProject/rename.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkProject/styles.css" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-928531334">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+              <folding>
+                <element signature="e#735#748#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/client.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="networkProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="networkProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.client">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="networkProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="networkProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.client" />
+        <item itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9c45ee1-a2c7-4634-a3e2-ad96c3922fc2" name="Default Changelist" comment="" />
+      <created>1540813750498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540813750498</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08261732" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UDPServer.py" />
+    <entry file="file://$PROJECT_DIR$/pc1.py" />
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+          <folding>
+            <element signature="e#735#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
