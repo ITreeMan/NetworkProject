@@ -75,10 +75,14 @@ def handleClient(client, uname):
             elif 'ping' in msg:
                 for name in keys:
                     if ('ping' + name) in msg:
-                        print('msg '+msg)
                         myip=msg.replace(','+'ping'+name,'')
+                        iptarget=msg.replace(myip+','+'ping','')
+                        print('iptarget= '+iptarget+' myip =  '+myip)
+                            for  i in list_of_connected
 
-                        print('iptarget= '+myip+' myip =  '+myip)
+
+
+
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
             else:
@@ -112,6 +116,5 @@ while serverRunning:
             'port': portadd
         })
         threading.Thread(target=handleClient, args=(client, (ipadd,macadd,portadd),)).start()
-        print(str(address))
 
 
