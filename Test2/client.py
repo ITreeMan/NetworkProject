@@ -47,7 +47,7 @@ def getNetworkIp():
 
 
 
-ipAddress = '10.51.61.217'
+ipAddress = getNetworkIp()
 package = [ipAddress,hex_mac_address]
 #print("HEX MAC Address: " + hex_mac_address)
 print("Your IP Address: " + ipAddress)
