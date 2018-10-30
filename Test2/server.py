@@ -28,7 +28,9 @@
 #     mainRun()
 
 
+import os
 import socket
+from threading import Timer
 import threading
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -42,6 +44,37 @@ s.bind((ip, port))
 s.listen()
 print('Server Ready...')
 print('Ip Address of the Server::%s' % ip)
+
+macT = []
+def showtable():
+    os.system('cls')
+    print("----------------------------")
+    for e in macT:
+        print(e[0]+'\t\t\t'+e[1]+'\t\t\t'+e[2]+'\t\t\t'+e[3])
+def delrow():
+    if len(macT) != 0:
+        macT.remove(macT[0])
+
+
+time = Timer(5,delrow)
+
+def findMac (macna):
+    for i in macT:
+        if macna == i[1]:
+            a = [i[0],i[1],i[2],i[3]]
+            macT.remove(i)
+            macT.append(a)
+
+
+
+
+
+def timerrow():
+    global time
+    if time.isAlive():
+        time.cancel()
+    time = Timer(5,delrow)
+    time.start()
 
 
 def handleClient(client, uname):
@@ -82,7 +115,6 @@ def handleClient(client, uname):
                         # print("Mac Address: " + macadd)
                         # print("IP Address: " + ipcom)
                         # print("VLAN1 "+ macadd + "0/1 "+ "Dynamic")
-                        print(ipcom)
                         # clients.get(ipcom).send('ARP1'.encode('ascii'))
                         #
                         # clients.get(name).send('ARP2'.encode('ascii'))
@@ -105,13 +137,19 @@ def handleClient(client, uname):
                         # clients.get(name).send('ARP'.encode('ascii'))
                         if 'one' in msg:
                             msg1=msg.replace('MacPort '+'one','')
-                            print(msg1)
-                        elif 'two' in msg:
-                            msg2 = msg.replace('MacPort ' + 'two', '')
-                            print(msg2)
-                        # found = True
+
+                            macAddr = msg1.split(' ')
+                            if macAddr not in macT:
+                                macT.append(macAddr)
+
+
+                        showtable()
+
+                                # found = True
                 # if (not found):
                 #     client.send('Trying to send message to invalid person.'.encode('ascii'))
+
+
 
 
             else:

@@ -78,11 +78,6 @@ def handleClient(client, uname):
                         myip=msg.replace(','+'ping'+name,'')
                         iptarget=msg.replace(myip+','+'ping','')
                         print('iptarget= '+iptarget+' myip =  '+myip)
-                            for  i in list_of_connected
-
-
-
-
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
             else:
