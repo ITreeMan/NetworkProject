@@ -54,7 +54,7 @@ def handleClient(client, uname):
     while clientConnected:
         try:
             msg = client.recv(1024).decode('ascii')
-            response = 'Show MAC address table\n'
+            #response = 'Show MAC address table\n'
             found = False
             if 'show mac' in msg:
                 e = list_of_connected[0]
@@ -75,11 +75,8 @@ def handleClient(client, uname):
             elif 'ping' in msg:
                 for name in keys:
                     if ('ping' + name) in msg:
-                        msg = msg.replace('ping' + name, '')
-                        machaha=msg.replace(unameall +'>>', 'success')
-                        print("IP Address: " + machaha)
-                        clients.get(name).send(machaha.encode('ascii'))
-                        found = True
+                        iptarget=msg.replace('ping','')
+                        print(iptarget)
                 if (not found):
                     client.send('Trying to send message to invalid person.'.encode('ascii'))
             else:
