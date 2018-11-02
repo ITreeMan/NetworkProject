@@ -32,6 +32,7 @@ import os
 import socket
 from threading import Timer
 import threading
+import time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serverRunning = True
@@ -46,41 +47,62 @@ print('Server Ready...')
 print('Ip Address of the Server::%s' % ip)
 
 macT = []
-def showtable():
+def showtable(macT):
     os.system('cls')
-    print("----------------------------")
+    print("----------------------------------------------------------------------------------------------")
+    print('VLAN'+'\t\t\t\t'+'Mac address'+'\t\t\t   '+'Port'+'\t\t\t'+'  Type')
+    print("----------------------------------------------------------------------------------------------")
     for e in macT:
         print(e[0]+'\t\t\t'+e[1]+'\t\t\t'+e[2]+'\t\t\t'+e[3])
-def delrow():
-    if len(macT) != 0:
-        macT.remove(macT[0])
-
-
-time = Timer(5,delrow)
-
-def findMac (macna):
-    for i in macT:
-        if macna == i[1]:
-            a = [i[0],i[1],i[2],i[3]]
-            macT.remove(i)
-            macT.append(a)
 
 
 
 
+def delTable():
 
-def timerrow():
-    global time
-    if time.isAlive():
-        time.cancel()
-    time = Timer(5,delrow)
-    time.start()
+    while True:
+        time.sleep(30)
+        if len(macT) > 0:
+            macT.remove(macT[0])
+            showtable(macT)
+
+
+
+threading.Thread(target=delTable, args=(macT)).start()
+
+# def delrow():
+#     if len(macT) != 0:
+#         macT.remove(macT[0])
+#
+#
+# time = Timer(5,delrow)
+#
+
+
+# def findMac (macna):
+#
+#     for i in macT:
+#         if macna == i[0]:
+#             a = [i[0],i[1],i[2],i[3]]
+#             macT.remove(i)
+#             macT.append(a)
+#
+#
+#
+#
+#
+# def timerrow():
+#     global time
+#     if time.isAlive():
+#         time.cancel()
+#     time = Timer(5,delrow)
+#     time.start()
 
 
 def handleClient(client, uname):
     clientConnected = True
     keys = clients.keys()
-    help = 'There are four commands in Messenger\n1::**chatlist=>gives you the list of the people currently online\n2::**quit=>To end your session\n3::**broadcast=>To broadcast your message to each and every person currently present online\n4::Add the name of the person at the end of your message preceded by ** to send it to particular person'
+    help = 'There are four commands in Messenger\n1::ping(IP) for exampl \n ping10.51.61.123 \n2:: **checkcon for check connected ip address  \n3::**quit=>To end your session\n'
 
     while clientConnected:
         try:
@@ -88,7 +110,7 @@ def handleClient(client, uname):
 
             response = 'Number of People Online\n'
             found = False
-            if '**chatlist' in msg:
+            if '**checkcon' in msg:
                 clientNo = 0
                 for name in keys:
                     clientNo += 1
@@ -136,14 +158,23 @@ def handleClient(client, uname):
                         # print("IP Address: " + ipcom)
                         # clients.get(name).send('ARP'.encode('ascii'))
                         if 'one' in msg:
-                            msg1=msg.replace('MacPort '+'one','')
+                            msg1 = msg.replace('MacPort '+'one','')
 
                             macAddr = msg1.split(' ')
+
                             if macAddr not in macT:
+                                os.system('cls')
                                 macT.append(macAddr)
+                            else:
+                                if macAddr == macT[0]:
+                                    macT.remove(macAddr)
+                                    macT.append(macAddr)
+                                if macAddr == macT[1]:
+                                    macT.remove(macAddr)
+                                    macT.append(macAddr)
+                            os.system('cls')
+                            showtable(macT)
 
-
-                        showtable()
 
                                 # found = True
                 # if (not found):
